@@ -1,0 +1,8 @@
+Patient-1:
+{'Chickenpox': '0.3580', 'diabetes': '0.1612'}
+{'Chickenpox': ['0.0850', '0.9213'], 'diabetes': ['0.0191', '0.9202']}
+{'Chickenpox': ['sorethroat', 'T', 'cough', 'F'], 'diabetes': ['blurredvision', 'T', 'blurredvision', 'F']}
+Patient-2:
+{'Chickenpox': '0.4464', 'diabetes': '0.9202'}
+{'Chickenpox': ['0.2639', '0.8287'], 'diabetes': ['0.9202', '0.9202']}
+{'Chickenpox': ['sorethroat', 'T', 'sorethroat', 'F'], 'diabetes': ['none', 'N', 'none', 'N']}

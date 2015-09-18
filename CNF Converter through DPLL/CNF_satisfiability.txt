@@ -1,0 +1,6 @@
+['true', 'R=true', 'B=true', 'W=true']
+['false']
+['true', 'P=false']
+['true', 'P=true', 'Q=true', 'R=true']
+['true', 'A=true', 'B=true', 'C=true', 'D=true']
+['true', 'A=true', 'C=true', 'B=true']

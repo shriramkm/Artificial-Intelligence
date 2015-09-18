@@ -1,0 +1,644 @@
+DEN : [income:'0']
+1252
+DEN : [income:'25001']
+1830
+DEN : [income:'50001']
+3806
+DEN : [income:'75001']
+3112
+NUM : [exercise:'yes',income:'0']
+166
+NUM : [exercise:'yes',income:'25001']
+612
+NUM : [exercise:'yes',income:'50001']
+2884
+NUM : [exercise:'yes',income:'75001']
+2205
+NUM : [exercise:'no',income:'0']
+1086
+NUM : [exercise:'no',income:'25001']
+1218
+NUM : [exercise:'no',income:'50001']
+922
+NUM : [exercise:'no',income:'75001']
+907
+{"exercise:'no' | income:'75001'": '0.2915', "exercise:'no' | income:'25001'": '0.6656', "exercise:'no' | income:'0'": '0.8674', "exercise:'yes' | income:'50001'": '0.7578', "exercise:'yes' | income:'75001'": '0.7085', "exercise:'yes' | income:'25001'": '0.3344', "exercise:'no' | income:'50001'": '0.2422', "exercise:'yes' | income:'0'": '0.1326'}
+8DEN : [income:'0']
+1252
+DEN : [income:'25001']
+1830
+DEN : [income:'50001']
+3806
+DEN : [income:'75001']
+3112
+NUM : [smoke:'yes',income:'0']
+383
+NUM : [smoke:'yes',income:'25001']
+1006
+NUM : [smoke:'yes',income:'50001']
+2220
+NUM : [smoke:'yes',income:'75001']
+2497
+NUM : [smoke:'no',income:'0']
+869
+NUM : [smoke:'no',income:'25001']
+824
+NUM : [smoke:'no',income:'50001']
+1586
+NUM : [smoke:'no',income:'75001']
+615
+{"smoke:'yes' | income:'0'": '0.3059', "smoke:'no' | income:'25001'": '0.4503', "smoke:'no' | income:'75001'": '0.1976', "smoke:'yes' | income:'75001'": '0.8024', "smoke:'yes' | income:'25001'": '0.5497', "smoke:'no' | income:'50001'": '0.4167', "smoke:'no' | income:'0'": '0.6941', "smoke:'yes' | income:'50001'": '0.5833'}
+8DEN : [income:'0',exercise:'yes']
+166
+DEN : [income:'0',exercise:'no']
+1086
+DEN : [income:'25001',exercise:'yes']
+612
+DEN : [income:'25001',exercise:'no']
+1218
+DEN : [income:'50001',exercise:'yes']
+2884
+DEN : [income:'50001',exercise:'no']
+922
+DEN : [income:'75001',exercise:'yes']
+2205
+DEN : [income:'75001',exercise:'no']
+907
+NUM : [bmi:'underweight',income:'0',exercise:'yes']
+80
+NUM : [bmi:'underweight',income:'0',exercise:'no']
+434
+NUM : [bmi:'underweight',income:'25001',exercise:'yes']
+161
+NUM : [bmi:'underweight',income:'25001',exercise:'no']
+255
+NUM : [bmi:'underweight',income:'50001',exercise:'yes']
+420
+NUM : [bmi:'underweight',income:'50001',exercise:'no']
+94
+NUM : [bmi:'underweight',income:'75001',exercise:'yes']
+113
+NUM : [bmi:'underweight',income:'75001',exercise:'no']
+29
+NUM : [bmi:'normal',income:'0',exercise:'yes']
+57
+NUM : [bmi:'normal',income:'0',exercise:'no']
+179
+NUM : [bmi:'normal',income:'25001',exercise:'yes']
+306
+NUM : [bmi:'normal',income:'25001',exercise:'no']
+319
+NUM : [bmi:'normal',income:'50001',exercise:'yes']
+1729
+NUM : [bmi:'normal',income:'50001',exercise:'no']
+251
+NUM : [bmi:'normal',income:'75001',exercise:'yes']
+1180
+NUM : [bmi:'normal',income:'75001',exercise:'no']
+310
+NUM : [bmi:'overweight',income:'0',exercise:'yes']
+28
+NUM : [bmi:'overweight',income:'0',exercise:'no']
+253
+NUM : [bmi:'overweight',income:'25001',exercise:'yes']
+71
+NUM : [bmi:'overweight',income:'25001',exercise:'no']
+371
+NUM : [bmi:'overweight',income:'50001',exercise:'yes']
+293
+NUM : [bmi:'overweight',income:'50001',exercise:'no']
+332
+NUM : [bmi:'overweight',income:'75001',exercise:'yes']
+574
+NUM : [bmi:'overweight',income:'75001',exercise:'no']
+356
+NUM : [bmi:'obese',income:'0',exercise:'yes']
+1
+NUM : [bmi:'obese',income:'0',exercise:'no']
+220
+NUM : [bmi:'obese',income:'25001',exercise:'yes']
+74
+NUM : [bmi:'obese',income:'25001',exercise:'no']
+273
+NUM : [bmi:'obese',income:'50001',exercise:'yes']
+442
+NUM : [bmi:'obese',income:'50001',exercise:'no']
+245
+NUM : [bmi:'obese',income:'75001',exercise:'yes']
+338
+NUM : [bmi:'obese',income:'75001',exercise:'no']
+212
+{"bmi:'normal' | income:'0',exercise:'yes'": '0.3434', "bmi:'obese' | income:'25001',exercise:'yes'": '0.1209', "bmi:'overweight' | income:'50001',exercise:'yes'": '0.1016', "bmi:'underweight' | income:'50001',exercise:'no'": '0.1020', "bmi:'normal' | income:'75001',exercise:'no'": '0.3418', "bmi:'obese' | income:'75001',exercise:'no'": '0.2337', "bmi:'underweight' | income:'75001',exercise:'no'": '0.0320', "bmi:'obese' | income:'75001',exercise:'yes'": '0.1533', "bmi:'overweight' | income:'25001',exercise:'no'": '0.3046', "bmi:'obese' | income:'0',exercise:'no'": '0.2026', "bmi:'normal' | income:'25001',exercise:'yes'": '0.5000', "bmi:'underweight' | income:'50001',exercise:'yes'": '0.1456', "bmi:'normal' | income:'50001',exercise:'yes'": '0.5995', "bmi:'underweight' | income:'25001',exercise:'no'": '0.2094', "bmi:'normal' | income:'75001',exercise:'yes'": '0.5351', "bmi:'underweight' | income:'75001',exercise:'yes'": '0.0512', "bmi:'underweight' | income:'0',exercise:'yes'": '0.4819', "bmi:'obese' | income:'50001',exercise:'yes'": '0.1533', "bmi:'normal' | income:'50001',exercise:'no'": '0.2722', "bmi:'overweight' | income:'25001',exercise:'yes'": '0.1160', "bmi:'obese' | income:'0',exercise:'yes'": '0.0060', "bmi:'overweight' | income:'75001',exercise:'no'": '0.3925', "bmi:'underweight' | income:'25001',exercise:'yes'": '0.2631', "bmi:'underweight' | income:'0',exercise:'no'": '0.3996', "bmi:'overweight' | income:'50001',exercise:'no'": '0.3601', "bmi:'obese' | income:'50001',exercise:'no'": '0.2657', "bmi:'obese' | income:'25001',exercise:'no'": '0.2241', "bmi:'overweight' | income:'0',exercise:'yes'": '0.1687', "bmi:'overweight' | income:'0',exercise:'no'": '0.2330', "bmi:'normal' | income:'25001',exercise:'no'": '0.2619', "bmi:'overweight' | income:'75001',exercise:'yes'": '0.2603', "bmi:'normal' | income:'0',exercise:'no'": '0.1648'}
+32DEN : [income:'0',exercise:'yes',smoke:'yes']
+58
+DEN : [income:'0',exercise:'yes',smoke:'no']
+108
+DEN : [income:'0',exercise:'no',smoke:'yes']
+325
+DEN : [income:'0',exercise:'no',smoke:'no']
+761
+DEN : [income:'25001',exercise:'yes',smoke:'yes']
+333
+DEN : [income:'25001',exercise:'yes',smoke:'no']
+279
+DEN : [income:'25001',exercise:'no',smoke:'yes']
+673
+DEN : [income:'25001',exercise:'no',smoke:'no']
+545
+DEN : [income:'50001',exercise:'yes',smoke:'yes']
+1682
+DEN : [income:'50001',exercise:'yes',smoke:'no']
+1202
+DEN : [income:'50001',exercise:'no',smoke:'yes']
+538
+DEN : [income:'50001',exercise:'no',smoke:'no']
+384
+DEN : [income:'75001',exercise:'yes',smoke:'yes']
+1750
+DEN : [income:'75001',exercise:'yes',smoke:'no']
+455
+DEN : [income:'75001',exercise:'no',smoke:'yes']
+747
+DEN : [income:'75001',exercise:'no',smoke:'no']
+160
+NUM : [bp:'yes',income:'0',exercise:'yes',smoke:'yes']
+22
+NUM : [bp:'yes',income:'0',exercise:'yes',smoke:'no']
+12
+NUM : [bp:'yes',income:'0',exercise:'no',smoke:'yes']
+203
+NUM : [bp:'yes',income:'0',exercise:'no',smoke:'no']
+194
+NUM : [bp:'yes',income:'25001',exercise:'yes',smoke:'yes']
+115
+NUM : [bp:'yes',income:'25001',exercise:'yes',smoke:'no']
+41
+NUM : [bp:'yes',income:'25001',exercise:'no',smoke:'yes']
+348
+NUM : [bp:'yes',income:'25001',exercise:'no',smoke:'no']
+205
+NUM : [bp:'yes',income:'50001',exercise:'yes',smoke:'yes']
+614
+NUM : [bp:'yes',income:'50001',exercise:'yes',smoke:'no']
+120
+NUM : [bp:'yes',income:'50001',exercise:'no',smoke:'yes']
+325
+NUM : [bp:'yes',income:'50001',exercise:'no',smoke:'no']
+86
+NUM : [bp:'yes',income:'75001',exercise:'yes',smoke:'yes']
+483
+NUM : [bp:'yes',income:'75001',exercise:'yes',smoke:'no']
+42
+NUM : [bp:'yes',income:'75001',exercise:'no',smoke:'yes']
+357
+NUM : [bp:'yes',income:'75001',exercise:'no',smoke:'no']
+21
+NUM : [bp:'no',income:'0',exercise:'yes',smoke:'yes']
+36
+NUM : [bp:'no',income:'0',exercise:'yes',smoke:'no']
+96
+NUM : [bp:'no',income:'0',exercise:'no',smoke:'yes']
+122
+NUM : [bp:'no',income:'0',exercise:'no',smoke:'no']
+567
+NUM : [bp:'no',income:'25001',exercise:'yes',smoke:'yes']
+218
+NUM : [bp:'no',income:'25001',exercise:'yes',smoke:'no']
+238
+NUM : [bp:'no',income:'25001',exercise:'no',smoke:'yes']
+325
+NUM : [bp:'no',income:'25001',exercise:'no',smoke:'no']
+340
+NUM : [bp:'no',income:'50001',exercise:'yes',smoke:'yes']
+1068
+NUM : [bp:'no',income:'50001',exercise:'yes',smoke:'no']
+1082
+NUM : [bp:'no',income:'50001',exercise:'no',smoke:'yes']
+213
+NUM : [bp:'no',income:'50001',exercise:'no',smoke:'no']
+298
+NUM : [bp:'no',income:'75001',exercise:'yes',smoke:'yes']
+1267
+NUM : [bp:'no',income:'75001',exercise:'yes',smoke:'no']
+413
+NUM : [bp:'no',income:'75001',exercise:'no',smoke:'yes']
+390
+NUM : [bp:'no',income:'75001',exercise:'no',smoke:'no']
+139
+{"bp:'no' | income:'0',exercise:'yes',smoke:'no'": '0.8889', "bp:'no' | income:'50001',exercise:'yes',smoke:'no'": '0.9002', "bp:'no' | income:'0',exercise:'no',smoke:'no'": '0.7451', "bp:'no' | income:'0',exercise:'no',smoke:'yes'": '0.3754', "bp:'no' | income:'50001',exercise:'yes',smoke:'yes'": '0.6350', "bp:'yes' | income:'75001',exercise:'no',smoke:'no'": '0.1313', "bp:'no' | income:'25001',exercise:'no',smoke:'yes'": '0.4829', "bp:'yes' | income:'50001',exercise:'yes',smoke:'yes'": '0.3650', "bp:'no' | income:'25001',exercise:'yes',smoke:'yes'": '0.6547', "bp:'no' | income:'75001',exercise:'no',smoke:'no'": '0.8688', "bp:'no' | income:'50001',exercise:'no',smoke:'yes'": '0.3959', "bp:'yes' | income:'0',exercise:'no',smoke:'yes'": '0.6246', "bp:'no' | income:'75001',exercise:'yes',smoke:'no'": '0.9077', "bp:'yes' | income:'75001',exercise:'no',smoke:'yes'": '0.4779', "bp:'no' | income:'25001',exercise:'no',smoke:'no'": '0.6239', "bp:'yes' | income:'0',exercise:'no',smoke:'no'": '0.2549', "bp:'yes' | income:'75001',exercise:'yes',smoke:'no'": '0.0923', "bp:'yes' | income:'25001',exercise:'no',smoke:'yes'": '0.5171', "bp:'yes' | income:'50001',exercise:'yes',smoke:'no'": '0.0998', "bp:'yes' | income:'0',exercise:'yes',smoke:'yes'": '0.3793', "bp:'yes' | income:'0',exercise:'yes',smoke:'no'": '0.1111', "bp:'yes' | income:'25001',exercise:'yes',smoke:'no'": '0.1470', "bp:'yes' | income:'50001',exercise:'no',smoke:'yes'": '0.6041', "bp:'no' | income:'0',exercise:'yes',smoke:'yes'": '0.6207', "bp:'no' | income:'25001',exercise:'yes',smoke:'no'": '0.8530', "bp:'no' | income:'75001',exercise:'yes',smoke:'yes'": '0.7240', "bp:'no' | income:'50001',exercise:'no',smoke:'no'": '0.7760', "bp:'no' | income:'75001',exercise:'no',smoke:'yes'": '0.5221', "bp:'yes' | income:'25001',exercise:'no',smoke:'no'": '0.3761', "bp:'yes' | income:'75001',exercise:'yes',smoke:'yes'": '0.2760', "bp:'yes' | income:'25001',exercise:'yes',smoke:'yes'": '0.3453', "bp:'yes' | income:'50001',exercise:'no',smoke:'no'": '0.2240'}
+32DEN : [income:'0',exercise:'yes',smoke:'yes']
+58
+DEN : [income:'0',exercise:'yes',smoke:'no']
+108
+DEN : [income:'0',exercise:'no',smoke:'yes']
+325
+DEN : [income:'0',exercise:'no',smoke:'no']
+761
+DEN : [income:'25001',exercise:'yes',smoke:'yes']
+333
+DEN : [income:'25001',exercise:'yes',smoke:'no']
+279
+DEN : [income:'25001',exercise:'no',smoke:'yes']
+673
+DEN : [income:'25001',exercise:'no',smoke:'no']
+545
+DEN : [income:'50001',exercise:'yes',smoke:'yes']
+1682
+DEN : [income:'50001',exercise:'yes',smoke:'no']
+1202
+DEN : [income:'50001',exercise:'no',smoke:'yes']
+538
+DEN : [income:'50001',exercise:'no',smoke:'no']
+384
+DEN : [income:'75001',exercise:'yes',smoke:'yes']
+1750
+DEN : [income:'75001',exercise:'yes',smoke:'no']
+455
+DEN : [income:'75001',exercise:'no',smoke:'yes']
+747
+DEN : [income:'75001',exercise:'no',smoke:'no']
+160
+NUM : [cholesterol:'yes',income:'0',exercise:'yes',smoke:'yes']
+23
+NUM : [cholesterol:'yes',income:'0',exercise:'yes',smoke:'no']
+14
+NUM : [cholesterol:'yes',income:'0',exercise:'no',smoke:'yes']
+231
+NUM : [cholesterol:'yes',income:'0',exercise:'no',smoke:'no']
+178
+NUM : [cholesterol:'yes',income:'25001',exercise:'yes',smoke:'yes']
+114
+NUM : [cholesterol:'yes',income:'25001',exercise:'yes',smoke:'no']
+31
+NUM : [cholesterol:'yes',income:'25001',exercise:'no',smoke:'yes']
+390
+NUM : [cholesterol:'yes',income:'25001',exercise:'no',smoke:'no']
+105
+NUM : [cholesterol:'yes',income:'50001',exercise:'yes',smoke:'yes']
+510
+NUM : [cholesterol:'yes',income:'50001',exercise:'yes',smoke:'no']
+128
+NUM : [cholesterol:'yes',income:'50001',exercise:'no',smoke:'yes']
+288
+NUM : [cholesterol:'yes',income:'50001',exercise:'no',smoke:'no']
+61
+NUM : [cholesterol:'yes',income:'75001',exercise:'yes',smoke:'yes']
+566
+NUM : [cholesterol:'yes',income:'75001',exercise:'yes',smoke:'no']
+38
+NUM : [cholesterol:'yes',income:'75001',exercise:'no',smoke:'yes']
+423
+NUM : [cholesterol:'yes',income:'75001',exercise:'no',smoke:'no']
+23
+NUM : [cholesterol:'no',income:'0',exercise:'yes',smoke:'yes']
+35
+NUM : [cholesterol:'no',income:'0',exercise:'yes',smoke:'no']
+94
+NUM : [cholesterol:'no',income:'0',exercise:'no',smoke:'yes']
+94
+NUM : [cholesterol:'no',income:'0',exercise:'no',smoke:'no']
+583
+NUM : [cholesterol:'no',income:'25001',exercise:'yes',smoke:'yes']
+219
+NUM : [cholesterol:'no',income:'25001',exercise:'yes',smoke:'no']
+248
+NUM : [cholesterol:'no',income:'25001',exercise:'no',smoke:'yes']
+283
+NUM : [cholesterol:'no',income:'25001',exercise:'no',smoke:'no']
+440
+NUM : [cholesterol:'no',income:'50001',exercise:'yes',smoke:'yes']
+1172
+NUM : [cholesterol:'no',income:'50001',exercise:'yes',smoke:'no']
+1074
+NUM : [cholesterol:'no',income:'50001',exercise:'no',smoke:'yes']
+250
+NUM : [cholesterol:'no',income:'50001',exercise:'no',smoke:'no']
+323
+NUM : [cholesterol:'no',income:'75001',exercise:'yes',smoke:'yes']
+1184
+NUM : [cholesterol:'no',income:'75001',exercise:'yes',smoke:'no']
+417
+NUM : [cholesterol:'no',income:'75001',exercise:'no',smoke:'yes']
+324
+NUM : [cholesterol:'no',income:'75001',exercise:'no',smoke:'no']
+137
+{"cholesterol:'no' | income:'25001',exercise:'yes',smoke:'yes'": '0.6577', "cholesterol:'no' | income:'25001',exercise:'yes',smoke:'no'": '0.8889', "cholesterol:'no' | income:'75001',exercise:'no',smoke:'yes'": '0.4337', "cholesterol:'no' | income:'50001',exercise:'yes',smoke:'yes'": '0.6968', "cholesterol:'yes' | income:'50001',exercise:'yes',smoke:'yes'": '0.3032', "cholesterol:'no' | income:'75001',exercise:'yes',smoke:'no'": '0.9165', "cholesterol:'yes' | income:'25001',exercise:'yes',smoke:'no'": '0.1111', "cholesterol:'yes' | income:'0',exercise:'no',smoke:'yes'": '0.7108', "cholesterol:'no' | income:'50001',exercise:'no',smoke:'yes'": '0.4647', "cholesterol:'no' | income:'25001',exercise:'no',smoke:'yes'": '0.4205', "cholesterol:'no' | income:'0',exercise:'yes',smoke:'yes'": '0.6034', "cholesterol:'yes' | income:'25001',exercise:'no',smoke:'no'": '0.1927', "cholesterol:'yes' | income:'75001',exercise:'yes',smoke:'no'": '0.0835', "cholesterol:'no' | income:'0',exercise:'yes',smoke:'no'": '0.8704', "cholesterol:'yes' | income:'50001',exercise:'no',smoke:'no'": '0.1589', "cholesterol:'no' | income:'75001',exercise:'no',smoke:'no'": '0.8562', "cholesterol:'no' | income:'50001',exercise:'no',smoke:'no'": '0.8411', "cholesterol:'no' | income:'75001',exercise:'yes',smoke:'yes'": '0.6766', "cholesterol:'yes' | income:'0',exercise:'yes',smoke:'no'": '0.1296', "cholesterol:'yes' | income:'75001',exercise:'no',smoke:'yes'": '0.5663', "cholesterol:'yes' | income:'75001',exercise:'yes',smoke:'yes'": '0.3234', "cholesterol:'no' | income:'0',exercise:'no',smoke:'yes'": '0.2892', "cholesterol:'no' | income:'25001',exercise:'no',smoke:'no'": '0.8073', "cholesterol:'yes' | income:'0',exercise:'no',smoke:'no'": '0.2339', "cholesterol:'yes' | income:'25001',exercise:'yes',smoke:'yes'": '0.3423', "cholesterol:'no' | income:'50001',exercise:'yes',smoke:'no'": '0.8935', "cholesterol:'yes' | income:'50001',exercise:'yes',smoke:'no'": '0.1065', "cholesterol:'yes' | income:'25001',exercise:'no',smoke:'yes'": '0.5795', "cholesterol:'yes' | income:'0',exercise:'yes',smoke:'yes'": '0.3966', "cholesterol:'yes' | income:'75001',exercise:'no',smoke:'no'": '0.1437', "cholesterol:'no' | income:'0',exercise:'no',smoke:'no'": '0.7661', "cholesterol:'yes' | income:'50001',exercise:'no',smoke:'yes'": '0.5353'}
+32DEN : [bmi:'underweight',bp:'yes',cholesterol:'yes']
+217
+DEN : [bmi:'underweight',bp:'yes',cholesterol:'no']
+303
+DEN : [bmi:'underweight',bp:'no',cholesterol:'yes']
+285
+DEN : [bmi:'underweight',bp:'no',cholesterol:'no']
+781
+DEN : [bmi:'normal',bp:'yes',cholesterol:'yes']
+477
+DEN : [bmi:'normal',bp:'yes',cholesterol:'no']
+806
+DEN : [bmi:'normal',bp:'no',cholesterol:'yes']
+760
+DEN : [bmi:'normal',bp:'no',cholesterol:'no']
+2288
+DEN : [bmi:'overweight',bp:'yes',cholesterol:'yes']
+334
+DEN : [bmi:'overweight',bp:'yes',cholesterol:'no']
+465
+DEN : [bmi:'overweight',bp:'no',cholesterol:'yes']
+455
+DEN : [bmi:'overweight',bp:'no',cholesterol:'no']
+1024
+DEN : [bmi:'obese',bp:'yes',cholesterol:'yes']
+222
+DEN : [bmi:'obese',bp:'yes',cholesterol:'no']
+364
+DEN : [bmi:'obese',bp:'no',cholesterol:'yes']
+373
+DEN : [bmi:'obese',bp:'no',cholesterol:'no']
+846
+NUM : [angina:'yes',bmi:'underweight',bp:'yes',cholesterol:'yes']
+49
+NUM : [angina:'yes',bmi:'underweight',bp:'yes',cholesterol:'no']
+31
+NUM : [angina:'yes',bmi:'underweight',bp:'no',cholesterol:'yes']
+49
+NUM : [angina:'yes',bmi:'underweight',bp:'no',cholesterol:'no']
+60
+NUM : [angina:'yes',bmi:'normal',bp:'yes',cholesterol:'yes']
+109
+NUM : [angina:'yes',bmi:'normal',bp:'yes',cholesterol:'no']
+140
+NUM : [angina:'yes',bmi:'normal',bp:'no',cholesterol:'yes']
+135
+NUM : [angina:'yes',bmi:'normal',bp:'no',cholesterol:'no']
+116
+NUM : [angina:'yes',bmi:'overweight',bp:'yes',cholesterol:'yes']
+109
+NUM : [angina:'yes',bmi:'overweight',bp:'yes',cholesterol:'no']
+117
+NUM : [angina:'yes',bmi:'overweight',bp:'no',cholesterol:'yes']
+130
+NUM : [angina:'yes',bmi:'overweight',bp:'no',cholesterol:'no']
+103
+NUM : [angina:'yes',bmi:'obese',bp:'yes',cholesterol:'yes']
+116
+NUM : [angina:'yes',bmi:'obese',bp:'yes',cholesterol:'no']
+171
+NUM : [angina:'yes',bmi:'obese',bp:'no',cholesterol:'yes']
+175
+NUM : [angina:'yes',bmi:'obese',bp:'no',cholesterol:'no']
+193
+NUM : [angina:'no',bmi:'underweight',bp:'yes',cholesterol:'yes']
+168
+NUM : [angina:'no',bmi:'underweight',bp:'yes',cholesterol:'no']
+272
+NUM : [angina:'no',bmi:'underweight',bp:'no',cholesterol:'yes']
+236
+NUM : [angina:'no',bmi:'underweight',bp:'no',cholesterol:'no']
+721
+NUM : [angina:'no',bmi:'normal',bp:'yes',cholesterol:'yes']
+368
+NUM : [angina:'no',bmi:'normal',bp:'yes',cholesterol:'no']
+666
+NUM : [angina:'no',bmi:'normal',bp:'no',cholesterol:'yes']
+625
+NUM : [angina:'no',bmi:'normal',bp:'no',cholesterol:'no']
+2172
+NUM : [angina:'no',bmi:'overweight',bp:'yes',cholesterol:'yes']
+225
+NUM : [angina:'no',bmi:'overweight',bp:'yes',cholesterol:'no']
+348
+NUM : [angina:'no',bmi:'overweight',bp:'no',cholesterol:'yes']
+325
+NUM : [angina:'no',bmi:'overweight',bp:'no',cholesterol:'no']
+921
+NUM : [angina:'no',bmi:'obese',bp:'yes',cholesterol:'yes']
+106
+NUM : [angina:'no',bmi:'obese',bp:'yes',cholesterol:'no']
+193
+NUM : [angina:'no',bmi:'obese',bp:'no',cholesterol:'yes']
+198
+NUM : [angina:'no',bmi:'obese',bp:'no',cholesterol:'no']
+653
+{"angina:'yes' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.1006', "angina:'no' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.8281', "angina:'yes' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.2857', "angina:'no' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.5308', "angina:'yes' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.1719', "angina:'yes' | bmi:'obese',bp:'no',cholesterol:'no'": '0.2281', "angina:'no' | bmi:'normal',bp:'no',cholesterol:'no'": '0.9493', "angina:'no' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.7143', "angina:'no' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.7742', "angina:'yes' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.1023', "angina:'yes' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.2516', "angina:'yes' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.4698', "angina:'no' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.5302', "angina:'yes' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.1776', "angina:'yes' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.1737', "angina:'no' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.4775', "angina:'no' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.8263', "angina:'yes' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.0768', "angina:'no' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.6737', "angina:'no' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.8224', "angina:'yes' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.4692', "angina:'no' | bmi:'obese',bp:'no',cholesterol:'no'": '0.7719', "angina:'yes' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.5225', "angina:'yes' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.2285', "angina:'no' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.9232', "angina:'no' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.8994', "angina:'yes' | bmi:'normal',bp:'no',cholesterol:'no'": '0.0507', "angina:'no' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.7484', "angina:'yes' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.2258', "angina:'no' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.8977', "angina:'no' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.7715', "angina:'yes' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.3263'}
+32DEN : [bmi:'underweight',bp:'yes',cholesterol:'yes']
+217
+DEN : [bmi:'underweight',bp:'yes',cholesterol:'no']
+303
+DEN : [bmi:'underweight',bp:'no',cholesterol:'yes']
+285
+DEN : [bmi:'underweight',bp:'no',cholesterol:'no']
+781
+DEN : [bmi:'normal',bp:'yes',cholesterol:'yes']
+477
+DEN : [bmi:'normal',bp:'yes',cholesterol:'no']
+806
+DEN : [bmi:'normal',bp:'no',cholesterol:'yes']
+760
+DEN : [bmi:'normal',bp:'no',cholesterol:'no']
+2288
+DEN : [bmi:'overweight',bp:'yes',cholesterol:'yes']
+334
+DEN : [bmi:'overweight',bp:'yes',cholesterol:'no']
+465
+DEN : [bmi:'overweight',bp:'no',cholesterol:'yes']
+455
+DEN : [bmi:'overweight',bp:'no',cholesterol:'no']
+1024
+DEN : [bmi:'obese',bp:'yes',cholesterol:'yes']
+222
+DEN : [bmi:'obese',bp:'yes',cholesterol:'no']
+364
+DEN : [bmi:'obese',bp:'no',cholesterol:'yes']
+373
+DEN : [bmi:'obese',bp:'no',cholesterol:'no']
+846
+NUM : [attack:'yes',bmi:'underweight',bp:'yes',cholesterol:'yes']
+54
+NUM : [attack:'yes',bmi:'underweight',bp:'yes',cholesterol:'no']
+36
+NUM : [attack:'yes',bmi:'underweight',bp:'no',cholesterol:'yes']
+42
+NUM : [attack:'yes',bmi:'underweight',bp:'no',cholesterol:'no']
+47
+NUM : [attack:'yes',bmi:'normal',bp:'yes',cholesterol:'yes']
+110
+NUM : [attack:'yes',bmi:'normal',bp:'yes',cholesterol:'no']
+118
+NUM : [attack:'yes',bmi:'normal',bp:'no',cholesterol:'yes']
+132
+NUM : [attack:'yes',bmi:'normal',bp:'no',cholesterol:'no']
+48
+NUM : [attack:'yes',bmi:'overweight',bp:'yes',cholesterol:'yes']
+97
+NUM : [attack:'yes',bmi:'overweight',bp:'yes',cholesterol:'no']
+126
+NUM : [attack:'yes',bmi:'overweight',bp:'no',cholesterol:'yes']
+139
+NUM : [attack:'yes',bmi:'overweight',bp:'no',cholesterol:'no']
+76
+NUM : [attack:'yes',bmi:'obese',bp:'yes',cholesterol:'yes']
+114
+NUM : [attack:'yes',bmi:'obese',bp:'yes',cholesterol:'no']
+164
+NUM : [attack:'yes',bmi:'obese',bp:'no',cholesterol:'yes']
+163
+NUM : [attack:'yes',bmi:'obese',bp:'no',cholesterol:'no']
+176
+NUM : [attack:'no',bmi:'underweight',bp:'yes',cholesterol:'yes']
+163
+NUM : [attack:'no',bmi:'underweight',bp:'yes',cholesterol:'no']
+267
+NUM : [attack:'no',bmi:'underweight',bp:'no',cholesterol:'yes']
+243
+NUM : [attack:'no',bmi:'underweight',bp:'no',cholesterol:'no']
+734
+NUM : [attack:'no',bmi:'normal',bp:'yes',cholesterol:'yes']
+367
+NUM : [attack:'no',bmi:'normal',bp:'yes',cholesterol:'no']
+688
+NUM : [attack:'no',bmi:'normal',bp:'no',cholesterol:'yes']
+628
+NUM : [attack:'no',bmi:'normal',bp:'no',cholesterol:'no']
+2240
+NUM : [attack:'no',bmi:'overweight',bp:'yes',cholesterol:'yes']
+237
+NUM : [attack:'no',bmi:'overweight',bp:'yes',cholesterol:'no']
+339
+NUM : [attack:'no',bmi:'overweight',bp:'no',cholesterol:'yes']
+316
+NUM : [attack:'no',bmi:'overweight',bp:'no',cholesterol:'no']
+948
+NUM : [attack:'no',bmi:'obese',bp:'yes',cholesterol:'yes']
+108
+NUM : [attack:'no',bmi:'obese',bp:'yes',cholesterol:'no']
+200
+NUM : [attack:'no',bmi:'obese',bp:'no',cholesterol:'yes']
+210
+NUM : [attack:'no',bmi:'obese',bp:'no',cholesterol:'no']
+670
+{"attack:'yes' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.3055', "attack:'no' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.9258', "attack:'yes' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.2710', "attack:'yes' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.5135', "attack:'no' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.8536', "attack:'yes' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.4505', "attack:'yes' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.2488', "attack:'no' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.5495', "attack:'yes' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.1464', "attack:'no' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.5630', "attack:'no' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.4865', "attack:'yes' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.2904', "attack:'no' | bmi:'normal',bp:'no',cholesterol:'no'": '0.9790', "attack:'yes' | bmi:'obese',bp:'no',cholesterol:'no'": '0.2080', "attack:'yes' | bmi:'normal',bp:'no',cholesterol:'no'": '0.0210', "attack:'no' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.8526', "attack:'no' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.8812', "attack:'no' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.7290', "attack:'yes' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.1737', "attack:'no' | bmi:'obese',bp:'no',cholesterol:'no'": '0.7920', "attack:'yes' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.1474', "attack:'yes' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.0742', "attack:'no' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.8263', "attack:'yes' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.1188', "attack:'no' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.7512', "attack:'no' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.7096', "attack:'yes' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.4370', "attack:'no' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.7694', "attack:'no' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.6945', "attack:'yes' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.2306', "attack:'no' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.9398', "attack:'yes' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.0602'}
+32DEN : [bmi:'underweight',bp:'yes',cholesterol:'yes']
+217
+DEN : [bmi:'underweight',bp:'yes',cholesterol:'no']
+303
+DEN : [bmi:'underweight',bp:'no',cholesterol:'yes']
+285
+DEN : [bmi:'underweight',bp:'no',cholesterol:'no']
+781
+DEN : [bmi:'normal',bp:'yes',cholesterol:'yes']
+477
+DEN : [bmi:'normal',bp:'yes',cholesterol:'no']
+806
+DEN : [bmi:'normal',bp:'no',cholesterol:'yes']
+760
+DEN : [bmi:'normal',bp:'no',cholesterol:'no']
+2288
+DEN : [bmi:'overweight',bp:'yes',cholesterol:'yes']
+334
+DEN : [bmi:'overweight',bp:'yes',cholesterol:'no']
+465
+DEN : [bmi:'overweight',bp:'no',cholesterol:'yes']
+455
+DEN : [bmi:'overweight',bp:'no',cholesterol:'no']
+1024
+DEN : [bmi:'obese',bp:'yes',cholesterol:'yes']
+222
+DEN : [bmi:'obese',bp:'yes',cholesterol:'no']
+364
+DEN : [bmi:'obese',bp:'no',cholesterol:'yes']
+373
+DEN : [bmi:'obese',bp:'no',cholesterol:'no']
+846
+NUM : [stroke:'yes',bmi:'underweight',bp:'yes',cholesterol:'yes']
+62
+NUM : [stroke:'yes',bmi:'underweight',bp:'yes',cholesterol:'no']
+30
+NUM : [stroke:'yes',bmi:'underweight',bp:'no',cholesterol:'yes']
+63
+NUM : [stroke:'yes',bmi:'underweight',bp:'no',cholesterol:'no']
+38
+NUM : [stroke:'yes',bmi:'normal',bp:'yes',cholesterol:'yes']
+82
+NUM : [stroke:'yes',bmi:'normal',bp:'yes',cholesterol:'no']
+67
+NUM : [stroke:'yes',bmi:'normal',bp:'no',cholesterol:'yes']
+135
+NUM : [stroke:'yes',bmi:'normal',bp:'no',cholesterol:'no']
+94
+NUM : [stroke:'yes',bmi:'overweight',bp:'yes',cholesterol:'yes']
+108
+NUM : [stroke:'yes',bmi:'overweight',bp:'yes',cholesterol:'no']
+155
+NUM : [stroke:'yes',bmi:'overweight',bp:'no',cholesterol:'yes']
+138
+NUM : [stroke:'yes',bmi:'overweight',bp:'no',cholesterol:'no']
+88
+NUM : [stroke:'yes',bmi:'obese',bp:'yes',cholesterol:'yes']
+117
+NUM : [stroke:'yes',bmi:'obese',bp:'yes',cholesterol:'no']
+184
+NUM : [stroke:'yes',bmi:'obese',bp:'no',cholesterol:'yes']
+155
+NUM : [stroke:'yes',bmi:'obese',bp:'no',cholesterol:'no']
+132
+NUM : [stroke:'no',bmi:'underweight',bp:'yes',cholesterol:'yes']
+155
+NUM : [stroke:'no',bmi:'underweight',bp:'yes',cholesterol:'no']
+273
+NUM : [stroke:'no',bmi:'underweight',bp:'no',cholesterol:'yes']
+222
+NUM : [stroke:'no',bmi:'underweight',bp:'no',cholesterol:'no']
+743
+NUM : [stroke:'no',bmi:'normal',bp:'yes',cholesterol:'yes']
+395
+NUM : [stroke:'no',bmi:'normal',bp:'yes',cholesterol:'no']
+739
+NUM : [stroke:'no',bmi:'normal',bp:'no',cholesterol:'yes']
+625
+NUM : [stroke:'no',bmi:'normal',bp:'no',cholesterol:'no']
+2194
+NUM : [stroke:'no',bmi:'overweight',bp:'yes',cholesterol:'yes']
+226
+NUM : [stroke:'no',bmi:'overweight',bp:'yes',cholesterol:'no']
+310
+NUM : [stroke:'no',bmi:'overweight',bp:'no',cholesterol:'yes']
+317
+NUM : [stroke:'no',bmi:'overweight',bp:'no',cholesterol:'no']
+936
+NUM : [stroke:'no',bmi:'obese',bp:'yes',cholesterol:'yes']
+105
+NUM : [stroke:'no',bmi:'obese',bp:'yes',cholesterol:'no']
+180
+NUM : [stroke:'no',bmi:'obese',bp:'no',cholesterol:'yes']
+218
+NUM : [stroke:'no',bmi:'obese',bp:'no',cholesterol:'no']
+714
+{"stroke:'yes' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.0990', "stroke:'no' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.7143', "stroke:'no' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.6766', "stroke:'yes' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.4155', "stroke:'no' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.8281', "stroke:'no' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.6967', "stroke:'no' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.9513', "stroke:'yes' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.3333', "stroke:'yes' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.0487', "stroke:'yes' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.1719', "stroke:'yes' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.3033', "stroke:'no' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.9141', "stroke:'yes' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.5270', "stroke:'no' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.9169', "stroke:'yes' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.5055', "stroke:'yes' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.2857', "stroke:'no' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.4945', "stroke:'yes' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.0831', "stroke:'no' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.5845', "stroke:'yes' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.0859', "stroke:'no' | bmi:'normal',bp:'no',cholesterol:'no'": '0.9589', "stroke:'yes' | bmi:'obese',bp:'no',cholesterol:'no'": '0.1560', "stroke:'yes' | bmi:'normal',bp:'no',cholesterol:'no'": '0.0411', "stroke:'no' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.7789', "stroke:'no' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.9010', "stroke:'no' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.6667', "stroke:'yes' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.3234', "stroke:'yes' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.1776', "stroke:'no' | bmi:'obese',bp:'no',cholesterol:'no'": '0.8440', "stroke:'yes' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.2211', "stroke:'no' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.4730', "stroke:'no' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.8224'}
+32DEN : [bmi:'underweight']
+1586
+DEN : [bmi:'normal']
+4331
+DEN : [bmi:'overweight']
+2278
+DEN : [bmi:'obese']
+1805
+NUM : [diabetes:'yes',bmi:'underweight']
+157
+NUM : [diabetes:'yes',bmi:'normal']
+317
+NUM : [diabetes:'yes',bmi:'overweight']
+730
+NUM : [diabetes:'yes',bmi:'obese']
+941
+NUM : [diabetes:'no',bmi:'underweight']
+1429
+NUM : [diabetes:'no',bmi:'normal']
+4014
+NUM : [diabetes:'no',bmi:'overweight']
+1548
+NUM : [diabetes:'no',bmi:'obese']
+864
+{"diabetes:'no' | bmi:'underweight'": '0.9010', "diabetes:'yes' | bmi:'underweight'": '0.0990', "diabetes:'no' | bmi:'normal'": '0.9268', "diabetes:'yes' | bmi:'normal'": '0.0732', "diabetes:'yes' | bmi:'overweight'": '0.3205', "diabetes:'no' | bmi:'overweight'": '0.6795', "diabetes:'yes' | bmi:'obese'": '0.5213', "diabetes:'no' | bmi:'obese'": '0.4787'}
+8
+
+{"cholesterol:'yes' | income:'25001',exercise:'no',smoke:'no'": '0.1927', "stroke:'yes' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.4155', "[bmi:'obese',bp:'no',cholesterol:'no']": 0.0846, "stroke:'no' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.8281', "[income:'75001',exercise:'yes',smoke:'yes']": 0.175, "attack:'yes' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.2306', "stroke:'yes' | bmi:'normal',bp:'no',cholesterol:'no'": '0.0411', "bp:'no' | income:'50001',exercise:'yes',smoke:'yes'": '0.6350', "cholesterol:'yes' | income:'25001',exercise:'yes',smoke:'no'": '0.1111', "[income:'75001']": 0.3112, "[income:'0']": 0.1252, "cholesterol:'yes' | income:'0',exercise:'no',smoke:'yes'": '0.7108', "[income:'25001',exercise:'no']": 0.1218, "bp:'no' | income:'25001',exercise:'no',smoke:'yes'": '0.4829', "smoke:'no' | income:'0'": '0.6941', "bp:'yes' | income:'50001',exercise:'yes',smoke:'yes'": '0.3650', "attack:'no' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.5495', "angina:'no' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.7143', "stroke:'yes' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.5270', "[bmi:'normal',bp:'no',cholesterol:'yes']": 0.076, "[income:'75001',exercise:'yes']": 0.2205, "angina:'yes' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.1023', "exercise:'yes' | income:'0'": '0.1326', "stroke:'yes' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.2857', "attack:'yes' | bmi:'normal',bp:'no',cholesterol:'no'": '0.0210', "exercise:'yes' | income:'50001'": '0.7578', "stroke:'yes' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.5055', "bp:'no' | income:'50001',exercise:'yes',smoke:'no'": '0.9002', "angina:'yes' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.1776', "bp:'no' | income:'25001',exercise:'no',smoke:'no'": '0.6239', "smoke:'yes' | income:'50001'": '0.5833', "bmi:'normal' | income:'50001',exercise:'no'": '0.2722', "bmi:'underweight' | income:'0',exercise:'no'": '0.3996', "[bmi:'normal',bp:'yes',cholesterol:'yes']": 0.0477, "cholesterol:'yes' | income:'75001',exercise:'no',smoke:'yes'": '0.5663', "[income:'50001',exercise:'no',smoke:'no']": 0.0384, "attack:'yes' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.5135', "angina:'no' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.6737', "stroke:'no' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.6967', "cholesterol:'no' | income:'25001',exercise:'no',smoke:'no'": '0.8073', "bp:'yes' | income:'0',exercise:'yes',smoke:'no'": '0.1111', "cholesterol:'yes' | income:'25001',exercise:'yes',smoke:'yes'": '0.3423', "[income:'25001',exercise:'yes',smoke:'yes']": 0.0333, "cholesterol:'no' | income:'50001',exercise:'yes',smoke:'no'": '0.8935', "bmi:'overweight' | income:'50001',exercise:'no'": '0.3601', "[income:'50001',exercise:'yes',smoke:'no']": 0.1202, "bmi:'overweight' | income:'0',exercise:'yes'": '0.1687', "exercise:'no' | income:'0'": '0.8674', "[income:'0',exercise:'no']": 0.1086, "attack:'no' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.6945', "diabetes:'yes' | bmi:'normal'": '0.0732', "[income:'75001',exercise:'no',smoke:'yes']": 0.0747, "stroke:'yes' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.1776', "smoke:'no' | income:'50001'": '0.4167', "[income:'0',exercise:'yes']": 0.0166, "stroke:'yes' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.0990', "smoke:'yes' | income:'25001'": '0.5497', "attack:'no' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.8526', "attack:'no' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.9258', "bmi:'obese' | income:'25001',exercise:'yes'": '0.1209', "angina:'no' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.8281', "[bmi:'overweight',bp:'no',cholesterol:'no']": 0.1024, "attack:'no' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.8536', "stroke:'no' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.9513', "stroke:'no' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.5845', "cholesterol:'no' | income:'75001',exercise:'yes',smoke:'no'": '0.9165', "diabetes:'no' | bmi:'obese'": '0.4787', "bmi:'underweight' | income:'50001',exercise:'no'": '0.1020', "bmi:'normal' | income:'75001',exercise:'no'": '0.3418', "bmi:'obese' | income:'75001',exercise:'no'": '0.2337', "cholesterol:'no' | income:'50001',exercise:'no',smoke:'yes'": '0.4647', "stroke:'yes' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.3234', "bmi:'underweight' | income:'75001',exercise:'no'": '0.0320', "exercise:'no' | income:'25001'": '0.6656', "bmi:'obese' | income:'0',exercise:'yes'": '0.0060', "angina:'yes' | bmi:'obese',bp:'no',cholesterol:'no'": '0.2281', "bmi:'obese' | income:'0',exercise:'no'": '0.2026', "angina:'no' | bmi:'normal',bp:'no',cholesterol:'no'": '0.9493', "cholesterol:'yes' | income:'50001',exercise:'yes',smoke:'yes'": '0.3032', "[income:'50001',exercise:'no']": 0.0922, "stroke:'yes' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.1719', "stroke:'yes' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.0487', "cholesterol:'yes' | income:'75001',exercise:'no',smoke:'no'": '0.1437', "bmi:'underweight' | income:'25001',exercise:'no'": '0.2094', "bp:'yes' | income:'75001',exercise:'yes',smoke:'no'": '0.0923', "[bmi:'overweight']": 0.2278, "angina:'no' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.8994', "bmi:'underweight' | income:'75001',exercise:'yes'": '0.0512', "attack:'no' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.8812', "[bmi:'underweight']": 0.1586, "[income:'50001',exercise:'yes']": 0.2884, "[income:'25001',exercise:'no',smoke:'no']": 0.0545, "attack:'no' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.7290', "bp:'no' | income:'75001',exercise:'no',smoke:'yes'": '0.5221', "diabetes:'no' | bmi:'overweight'": '0.6795', "[bmi:'underweight',bp:'yes',cholesterol:'no']": 0.0303, "attack:'no' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.9398', "cholesterol:'no' | income:'75001',exercise:'yes',smoke:'yes'": '0.6766', "cholesterol:'yes' | income:'0',exercise:'yes',smoke:'no'": '0.1296', "[bmi:'obese',bp:'yes',cholesterol:'no']": 0.0364, "stroke:'yes' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.0859', "cholesterol:'yes' | income:'75001',exercise:'yes',smoke:'yes'": '0.3234', "stroke:'no' | bmi:'obese',bp:'no',cholesterol:'no'": '0.8440', "stroke:'yes' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.3033', "bp:'yes' | income:'0',exercise:'yes',smoke:'yes'": '0.3793', "stroke:'no' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.9010', "attack:'no' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.4865', "attack:'no' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.8263', "stroke:'no' | bmi:'normal',bp:'no',cholesterol:'no'": '0.9589', "stroke:'no' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.6667', "stroke:'yes' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.2211', "bmi:'obese' | income:'25001',exercise:'no'": '0.2241', "attack:'no' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.7512', "bp:'yes' | income:'50001',exercise:'no',smoke:'yes'": '0.6041', "cholesterol:'yes' | income:'25001',exercise:'no',smoke:'yes'": '0.5795', "[income:'75001',exercise:'no',smoke:'no']": 0.016, "diabetes:'yes' | bmi:'overweight'": '0.3205', "[income:'50001',exercise:'yes',smoke:'yes']": 0.1682, "exercise:'no' | income:'50001'": '0.2422', "bp:'no' | income:'75001',exercise:'yes',smoke:'yes'": '0.7240', "[income:'75001',exercise:'no']": 0.0907, "[bmi:'normal',bp:'no',cholesterol:'no']": 0.2288, "bp:'yes' | income:'25001',exercise:'no',smoke:'no'": '0.3761', "bp:'yes' | income:'75001',exercise:'yes',smoke:'yes'": '0.2760', "cholesterol:'yes' | income:'50001',exercise:'no',smoke:'yes'": '0.5353', "angina:'yes' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.3263', "stroke:'no' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.8224', "bmi:'obese' | income:'75001',exercise:'yes'": '0.1533', "cholesterol:'no' | income:'25001',exercise:'yes',smoke:'no'": '0.8889', "exercise:'no' | income:'75001'": '0.2915', "[income:'75001',exercise:'yes',smoke:'no']": 0.0455, "attack:'yes' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.2710', "cholesterol:'no' | income:'50001',exercise:'yes',smoke:'yes'": '0.6968', "bmi:'overweight' | income:'50001',exercise:'yes'": '0.1016', "angina:'yes' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.2857', "attack:'yes' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.4505', "attack:'yes' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.2488', "[bmi:'underweight',bp:'no',cholesterol:'yes']": 0.0285, "bp:'yes' | income:'75001',exercise:'no',smoke:'no'": '0.1313', "[income:'0',exercise:'yes',smoke:'no']": 0.0108, "stroke:'no' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.7143', "[income:'0',exercise:'yes',smoke:'yes']": 0.0058, "[bmi:'underweight',bp:'no',cholesterol:'no']": 0.0781, "[bmi:'normal']": 0.4331, "attack:'no' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.5630', "bmi:'underweight' | income:'50001',exercise:'yes'": '0.1456', "stroke:'no' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.9169', "cholesterol:'no' | income:'0',exercise:'yes',smoke:'no'": '0.8704', "attack:'yes' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.2904', "angina:'yes' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.2516', "attack:'no' | bmi:'normal',bp:'no',cholesterol:'no'": '0.9790', "cholesterol:'yes' | income:'50001',exercise:'no',smoke:'no'": '0.1589', "bmi:'normal' | income:'75001',exercise:'yes'": '0.5351', "stroke:'no' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.6766', "[bmi:'obese']": 0.1805, "bmi:'underweight' | income:'0',exercise:'yes'": '0.4819', "[income:'0',exercise:'no',smoke:'no']": 0.0761, "bp:'yes' | income:'0',exercise:'no',smoke:'no'": '0.2549', "attack:'yes' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.1188', "bp:'no' | income:'0',exercise:'no',smoke:'no'": '0.7451', "bmi:'obese' | income:'50001',exercise:'yes'": '0.1533', "bp:'yes' | income:'50001',exercise:'yes',smoke:'no'": '0.0998', "[income:'25001',exercise:'yes']": 0.0612, "bmi:'overweight' | income:'25001',exercise:'yes'": '0.1160', "angina:'yes' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.0768', "stroke:'yes' | bmi:'obese',bp:'no',cholesterol:'no'": '0.1560', "bmi:'overweight' | income:'75001',exercise:'no'": '0.3925', "angina:'yes' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.4692', "stroke:'no' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.7789', "bmi:'underweight' | income:'25001',exercise:'yes'": '0.2631', "cholesterol:'yes' | income:'0',exercise:'no',smoke:'no'": '0.2339', "angina:'no' | bmi:'obese',bp:'no',cholesterol:'no'": '0.7719', "angina:'yes' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.5225', "bp:'yes' | income:'25001',exercise:'yes',smoke:'no'": '0.1470', "smoke:'yes' | income:'0'": '0.3059', "cholesterol:'no' | income:'0',exercise:'yes',smoke:'yes'": '0.6034', "attack:'no' | bmi:'overweight',bp:'yes',cholesterol:'yes'": '0.7096', "bmi:'overweight' | income:'0',exercise:'no'": '0.2330', "angina:'no' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.9232', "bp:'no' | income:'75001',exercise:'no',smoke:'no'": '0.8688', "[income:'25001',exercise:'no',smoke:'yes']": 0.0673, "bp:'no' | income:'50001',exercise:'no',smoke:'no'": '0.7760', "[income:'25001',exercise:'yes',smoke:'no']": 0.0279, "angina:'no' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.7484', "bmi:'normal' | income:'25001',exercise:'no'": '0.2619', "bmi:'overweight' | income:'75001',exercise:'yes'": '0.2603', "angina:'no' | bmi:'underweight',bp:'yes',cholesterol:'no'": '0.8977', "angina:'no' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.7715', "bmi:'normal' | income:'0',exercise:'no'": '0.1648', "[bmi:'overweight',bp:'no',cholesterol:'yes']": 0.0455, "bp:'yes' | income:'50001',exercise:'no',smoke:'no'": '0.2240', "diabetes:'no' | bmi:'normal'": '0.9268', "bp:'no' | income:'0',exercise:'yes',smoke:'no'": '0.8889', "attack:'yes' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.4370', "attack:'yes' | bmi:'overweight',bp:'no',cholesterol:'yes'": '0.3055', "bmi:'normal' | income:'0',exercise:'yes'": '0.3434', "bp:'yes' | income:'75001',exercise:'no',smoke:'yes'": '0.4779', "angina:'yes' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.1006', "[bmi:'overweight',bp:'yes',cholesterol:'no']": 0.0465, "cholesterol:'no' | income:'75001',exercise:'no',smoke:'yes'": '0.4337', "exercise:'yes' | income:'75001'": '0.7085', "exercise:'yes' | income:'25001'": '0.3344', "[income:'0',exercise:'no',smoke:'yes']": 0.0325, "diabetes:'no' | bmi:'underweight'": '0.9010', "angina:'no' | bmi:'obese',bp:'no',cholesterol:'yes'": '0.5308', "bp:'no' | income:'0',exercise:'no',smoke:'yes'": '0.3754', "stroke:'yes' | bmi:'overweight',bp:'yes',cholesterol:'no'": '0.3333', "angina:'yes' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.1719', "angina:'yes' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.1737', "cholesterol:'no' | income:'25001',exercise:'no',smoke:'yes'": '0.4205', "[bmi:'overweight',bp:'yes',cholesterol:'yes']": 0.0334, "bmi:'obese' | income:'50001',exercise:'no'": '0.2657', "attack:'yes' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.1464', "cholesterol:'yes' | income:'75001',exercise:'yes',smoke:'no'": '0.0835', "smoke:'no' | income:'75001'": '0.1976', "stroke:'no' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.9141', "[bmi:'normal',bp:'yes',cholesterol:'no']": 0.0806, "bp:'no' | income:'50001',exercise:'no',smoke:'yes'": '0.3959', "[income:'50001']": 0.3806, "bp:'yes' | income:'0',exercise:'no',smoke:'yes'": '0.6246', "bp:'yes' | income:'25001',exercise:'yes',smoke:'yes'": '0.3453', "bmi:'normal' | income:'50001',exercise:'yes'": '0.5995', "diabetes:'yes' | bmi:'underweight'": '0.0990', "angina:'yes' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.4698', "cholesterol:'no' | income:'75001',exercise:'no',smoke:'no'": '0.8562', "angina:'no' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.5302', "[bmi:'underweight',bp:'yes',cholesterol:'yes']": 0.0217, "[bmi:'obese',bp:'no',cholesterol:'yes']": 0.0373, "stroke:'no' | bmi:'obese',bp:'yes',cholesterol:'no'": '0.4945', "smoke:'no' | income:'25001'": '0.4503', "stroke:'yes' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.0831', "diabetes:'yes' | bmi:'obese'": '0.5213', "cholesterol:'no' | income:'50001',exercise:'no',smoke:'no'": '0.8411', "smoke:'yes' | income:'75001'": '0.8024', "angina:'no' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.4775', "[bmi:'obese',bp:'yes',cholesterol:'yes']": 0.0222, "[income:'50001',exercise:'no',smoke:'yes']": 0.0538, "bp:'yes' | income:'25001',exercise:'no',smoke:'yes'": '0.5171', "attack:'yes' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.1737', "bmi:'overweight' | income:'25001',exercise:'no'": '0.3046', "angina:'no' | bmi:'normal',bp:'yes',cholesterol:'no'": '0.8263', "cholesterol:'no' | income:'0',exercise:'no',smoke:'yes'": '0.2892', "attack:'no' | bmi:'obese',bp:'no',cholesterol:'no'": '0.7920', "attack:'yes' | bmi:'underweight',bp:'no',cholesterol:'yes'": '0.1474', "angina:'no' | bmi:'normal',bp:'no',cholesterol:'yes'": '0.8224', "attack:'yes' | bmi:'overweight',bp:'no',cholesterol:'no'": '0.0742', "bp:'no' | income:'75001',exercise:'yes',smoke:'no'": '0.9077', "attack:'yes' | bmi:'obese',bp:'no',cholesterol:'no'": '0.2080', "[income:'25001']": 0.183, "angina:'yes' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.2285', "bp:'no' | income:'25001',exercise:'yes',smoke:'yes'": '0.6547', "cholesterol:'yes' | income:'50001',exercise:'yes',smoke:'no'": '0.1065', "angina:'no' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.7742', "cholesterol:'no' | income:'25001',exercise:'yes',smoke:'yes'": '0.6577', "attack:'no' | bmi:'normal',bp:'yes',cholesterol:'yes'": '0.7694', "bp:'no' | income:'0',exercise:'yes',smoke:'yes'": '0.6207', "stroke:'no' | bmi:'obese',bp:'yes',cholesterol:'yes'": '0.4730', "cholesterol:'yes' | income:'0',exercise:'yes',smoke:'yes'": '0.3966', "bp:'no' | income:'25001',exercise:'yes',smoke:'no'": '0.8530', "angina:'yes' | bmi:'normal',bp:'no',cholesterol:'no'": '0.0507', "attack:'yes' | bmi:'underweight',bp:'no',cholesterol:'no'": '0.0602', "bmi:'normal' | income:'25001',exercise:'yes'": '0.5000', "angina:'yes' | bmi:'underweight',bp:'yes',cholesterol:'yes'": '0.2258', "cholesterol:'no' | income:'0',exercise:'no',smoke:'no'": '0.7661'}
